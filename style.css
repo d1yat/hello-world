@@ -11,3 +11,13 @@ body {
     background-color: antiquewhite;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.body-content {
+    max-width: 300px;
+    margin: 80px auto;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px; 
+}
