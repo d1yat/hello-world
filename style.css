@@ -39,3 +39,7 @@ body {
 #footer {
     bottom: 0;
 }
+
+#btn-submit {
+    font-weight: bold;
+}
