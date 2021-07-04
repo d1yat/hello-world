@@ -43,3 +43,7 @@ body {
 #btn-submit {
     font-weight: bold;
 }
+
+#greeting {
+    text-align: center;
+}
