@@ -1,6 +1,0 @@
-Manifest-Version: 1.0
-AutoUpdate-Show-In-Client: true
-OpenIDE-Module: org.netbeans.module.helloworld
-OpenIDE-Module-Localizing-Bundle: org/netbeans/module/helloworld/Bundle.properties
-OpenIDE-Module-Specification-Version: 1.0
-
