@@ -11,7 +11,8 @@
     <div class="body-content">
       <h1>Hello world.</h1>
       <p id="greeting">Welcome to my website!</p>
-      <button type="button" id="btn-submit">Submit</button>
+      <input type="text" id="txt-greeting" placeholder="Your message here...">
+      <button type="submit" id="btn-submit">Submit</button>
     </div>
 
     <div id="footer">Footer</div>
@@ -19,9 +20,15 @@
     <script>
       const button = document.getElementById("btn-submit");
 
-      button.addEventListener("click", () => {
-        alert("Hello world.");
-      })
+      button.addEventListener("click", (e) => {
+      	e.preventDefault();
+      	
+      	let input = document.getElementById("txt-greeting");
+      	
+      	if (input.value !== "") {
+      		document.getElementById("greeting").innerHTML = input.value;
+      	}
+      });
     </script>
   </body>
 </html>
