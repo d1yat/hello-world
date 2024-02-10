@@ -1,2 +1,2 @@
 # hello-world
-This is gonna be awesome (Modified)!
+This is gonna be awesome! (modified)
